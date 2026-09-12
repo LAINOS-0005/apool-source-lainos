@@ -1,0 +1,18 @@
+version: 3.0.3-dirty
+apkFileName: CloneMasterv4.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 24
+  targetSdkVersion: 35
+versionInfo:
+  versionCode: 20081
+  versionName: 2.8.1.20
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

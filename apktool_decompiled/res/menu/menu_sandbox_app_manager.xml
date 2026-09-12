@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_sandbox_select_all_24" android:id="@id/action_select_all" android:title="@string/sandbox_app_manager_select_all" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_search" android:id="@id/action_search" android:title="@string/action_search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="always|collapseActionView" />
+</menu>

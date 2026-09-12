@@ -1,0 +1,139 @@
+.class public final Lcom/google/android/gms/internal/ads/zzblp;
+.super Lcom/cmaster/cloner/ec2;
+.source "r8-map-id-e501eaca979710c79f9ea561e05212083c5b81f1faef4044ecb95c4f48a5c82d"
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Landroid/os/Looper;Lcom/cmaster/cloner/k6;Lcom/cmaster/cloner/l6;)V
+    .locals 6
+
+    .line 1
+    invoke-static {p1}, Lcom/google/android/gms/internal/ads/zzbwa;->zza(Landroid/content/Context;)Landroid/content/Context;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v1
+
+    .line 5
+    const/16 v5, 0xa6
+
+    .line 6
+    .line 7
+    move-object v0, p0
+
+    .line 8
+    move-object v2, p2
+
+    .line 9
+    move-object v3, p3
+
+    .line 10
+    move-object v4, p4
+
+    .line 11
+    invoke-direct/range {v0 .. v5}, Lcom/cmaster/cloner/ec2;-><init>(Landroid/content/Context;Landroid/os/Looper;Lcom/cmaster/cloner/k6;Lcom/cmaster/cloner/l6;I)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic createServiceInterface(Landroid/os/IBinder;)Landroid/os/IInterface;
+    .locals 1
+
+    .line 1
+    if-nez p1, :cond_0
+
+    .line 2
+    .line 3
+    const/4 p0, 0x0
+
+    .line 4
+    return-object p0
+
+    .line 5
+    :cond_0
+    const-string p0, "com.google.android.gms.ads.internal.httpcache.IHttpAssetsCacheService"
+
+    .line 6
+    .line 7
+    invoke-interface {p1, p0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    instance-of v0, p0, Lcom/google/android/gms/internal/ads/zzblw;
+
+    .line 12
+    .line 13
+    if-eqz v0, :cond_1
+
+    .line 14
+    .line 15
+    check-cast p0, Lcom/google/android/gms/internal/ads/zzblw;
+
+    .line 16
+    .line 17
+    return-object p0
+
+    .line 18
+    :cond_1
+    new-instance p0, Lcom/google/android/gms/internal/ads/zzblw;
+
+    .line 19
+    .line 20
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/ads/zzblw;-><init>(Landroid/os/IBinder;)V
+
+    .line 21
+    .line 22
+    .line 23
+    return-object p0
+.end method
+
+.method public final getServiceDescriptor()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "com.google.android.gms.ads.internal.httpcache.IHttpAssetsCacheService"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final getStartServiceAction()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    const-string p0, "com.google.android.gms.ads.service.HTTP"
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public final zzp()Lcom/google/android/gms/internal/ads/zzblw;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcom/cmaster/cloner/o6;->getService()Landroid/os/IInterface;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    check-cast p0, Lcom/google/android/gms/internal/ads/zzblw;
+
+    .line 6
+    .line 7
+    return-object p0
+.end method

@@ -1,0 +1,17 @@
+.class public interface abstract Lcom/google/android/gms/internal/ads/zzapn;
+.super Ljava/lang/Object;
+.source "r8-map-id-e501eaca979710c79f9ea561e05212083c5b81f1faef4044ecb95c4f48a5c82d"
+
+
+# virtual methods
+.method public abstract zza(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/zzapm;
+.end method
+
+.method public abstract zzb()V
+.end method
+
+.method public abstract zzc(Ljava/lang/String;Z)V
+.end method
+
+.method public abstract zzd(Ljava/lang/String;Lcom/google/android/gms/internal/ads/zzapm;)V
+.end method

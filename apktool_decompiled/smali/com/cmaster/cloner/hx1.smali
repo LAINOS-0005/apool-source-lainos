@@ -1,0 +1,127 @@
+.class public final Lcom/cmaster/cloner/hx1;
+.super Lcom/cmaster/cloner/to0;
+
+
+# instance fields
+.field public final synthetic OooOOOO:Lcom/cmaster/cloner/ix1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x55
+
+    invoke-static {v0}, Lcom/cmaster/cloner/DexUtils;->classesInit0(I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/cmaster/cloner/ix1;)V
+    .locals 3
+
+    .line 1
+    iput-object p1, p0, Lcom/cmaster/cloner/hx1;->OooOOOO:Lcom/cmaster/cloner/ix1;
+
+    .line 2
+    .line 3
+    new-instance p1, Ljava/io/File;
+
+    .line 4
+    .line 5
+    invoke-static {}, Lcom/cmaster/cloner/cy1;->OooO0O0()Ljava/io/File;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    const/4 v1, 0x5
+
+    .line 10
+    new-array v1, v1, [B
+
+    .line 11
+    .line 12
+    fill-array-data v1, :array_0
+
+    .line 13
+    .line 14
+    .line 15
+    const/16 v2, 0x8
+
+    .line 16
+    .line 17
+    new-array v2, v2, [B
+
+    .line 18
+    .line 19
+    fill-array-data v2, :array_1
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-static {v1, v2}, Lcom/cmaster/cloner/w7;->OooO00o([B[B)Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v1
+
+    .line 26
+    invoke-direct {p1, v0, v1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-direct {p0, p1}, Lcom/cmaster/cloner/xz;-><init>(Ljava/io/File;)V
+
+    .line 30
+    .line 31
+    .line 32
+    return-void
+
+    .line 33
+    :array_0
+    .array-data 1
+        0x62t
+        0xft
+        0x78t
+        -0x3et
+        0x6at
+    .end array-data
+
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    nop
+
+    .line 41
+    :array_1
+    .array-data 1
+        0x3t
+        0x7ct
+        0x56t
+        -0x5at
+        0x8t
+        -0x2t
+        0x17t
+        -0x56t
+    .end array-data
+.end method
+
+
+# virtual methods
+.method public final native OooO0oO()I
+.end method
+
+.method public final native OooO0oo(ILandroid/os/Parcel;)V
+.end method
+
+.method public final native OooOO0(Landroid/os/Parcel;)V
+.end method

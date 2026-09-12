@@ -1,0 +1,969 @@
+.class public final Lcom/google/android/gms/internal/ads/zzglz;
+.super Ljava/lang/Object;
+.source "r8-map-id-e501eaca979710c79f9ea561e05212083c5b81f1faef4044ecb95c4f48a5c82d"
+
+
+# static fields
+.field public static final synthetic zza:I
+
+.field private static final zzb:Lcom/google/android/gms/internal/ads/zzgxe;
+
+.field private static final zzc:Lcom/google/android/gms/internal/ads/zzgoh;
+
+.field private static final zzd:Lcom/google/android/gms/internal/ads/zzgod;
+
+.field private static final zze:Lcom/google/android/gms/internal/ads/zzgmx;
+
+.field private static final zzf:Lcom/google/android/gms/internal/ads/zzgmt;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    .line 1
+    const-string v0, "type.googleapis.com/google.crypto.tink.XChaCha20Poly1305Key"
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzgpj;->zzb(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/zzgxe;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzglz;->zzb:Lcom/google/android/gms/internal/ads/zzgxe;
+
+    .line 8
+    .line 9
+    new-instance v1, Lcom/google/android/gms/internal/ads/zzglv;
+
+    .line 10
+    .line 11
+    invoke-direct {v1}, Lcom/google/android/gms/internal/ads/zzglv;-><init>()V
+
+    .line 12
+    .line 13
+    .line 14
+    const-class v2, Lcom/google/android/gms/internal/ads/zzgka;
+
+    .line 15
+    .line 16
+    const-class v3, Lcom/google/android/gms/internal/ads/zzgoy;
+
+    .line 17
+    .line 18
+    invoke-static {v1, v2, v3}, Lcom/google/android/gms/internal/ads/zzgoh;->zzb(Lcom/google/android/gms/internal/ads/zzgof;Ljava/lang/Class;Ljava/lang/Class;)Lcom/google/android/gms/internal/ads/zzgoh;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v1
+
+    .line 22
+    sput-object v1, Lcom/google/android/gms/internal/ads/zzglz;->zzc:Lcom/google/android/gms/internal/ads/zzgoh;
+
+    .line 23
+    .line 24
+    new-instance v1, Lcom/google/android/gms/internal/ads/zzglw;
+
+    .line 25
+    .line 26
+    invoke-direct {v1}, Lcom/google/android/gms/internal/ads/zzglw;-><init>()V
+
+    .line 27
+    .line 28
+    .line 29
+    invoke-static {v1, v0, v3}, Lcom/google/android/gms/internal/ads/zzgod;->zzb(Lcom/google/android/gms/internal/ads/zzgob;Lcom/google/android/gms/internal/ads/zzgxe;Ljava/lang/Class;)Lcom/google/android/gms/internal/ads/zzgod;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v1
+
+    .line 33
+    sput-object v1, Lcom/google/android/gms/internal/ads/zzglz;->zzd:Lcom/google/android/gms/internal/ads/zzgod;
+
+    .line 34
+    .line 35
+    new-instance v1, Lcom/google/android/gms/internal/ads/zzglx;
+
+    .line 36
+    .line 37
+    invoke-direct {v1}, Lcom/google/android/gms/internal/ads/zzglx;-><init>()V
+
+    .line 38
+    .line 39
+    .line 40
+    const-class v2, Lcom/google/android/gms/internal/ads/zzgju;
+
+    .line 41
+    .line 42
+    const-class v3, Lcom/google/android/gms/internal/ads/zzgox;
+
+    .line 43
+    .line 44
+    invoke-static {v1, v2, v3}, Lcom/google/android/gms/internal/ads/zzgmx;->zzb(Lcom/google/android/gms/internal/ads/zzgmv;Ljava/lang/Class;Ljava/lang/Class;)Lcom/google/android/gms/internal/ads/zzgmx;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object v1
+
+    .line 48
+    sput-object v1, Lcom/google/android/gms/internal/ads/zzglz;->zze:Lcom/google/android/gms/internal/ads/zzgmx;
+
+    .line 49
+    .line 50
+    new-instance v1, Lcom/google/android/gms/internal/ads/zzgly;
+
+    .line 51
+    .line 52
+    invoke-direct {v1}, Lcom/google/android/gms/internal/ads/zzgly;-><init>()V
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-static {v1, v0, v3}, Lcom/google/android/gms/internal/ads/zzgmt;->zzb(Lcom/google/android/gms/internal/ads/zzgmr;Lcom/google/android/gms/internal/ads/zzgxe;Ljava/lang/Class;)Lcom/google/android/gms/internal/ads/zzgmt;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object v0
+
+    .line 59
+    sput-object v0, Lcom/google/android/gms/internal/ads/zzglz;->zzf:Lcom/google/android/gms/internal/ads/zzgmt;
+
+    .line 60
+    .line 61
+    return-void
+.end method
+
+.method public static synthetic zza(Lcom/google/android/gms/internal/ads/zzgox;Lcom/google/android/gms/internal/ads/zzgfn;)Lcom/google/android/gms/internal/ads/zzgju;
+    .locals 3
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgox;->zzg()Ljava/lang/String;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const-string v1, "type.googleapis.com/google.crypto.tink.XChaCha20Poly1305Key"
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    const/4 v1, 0x0
+
+    .line 12
+    if-eqz v0, :cond_1
+
+    .line 13
+    .line 14
+    :try_start_0
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgox;->zze()Lcom/google/android/gms/internal/ads/zzgxz;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v0
+
+    .line 18
+    invoke-static {}, Lcom/google/android/gms/internal/ads/zzgyr;->zza()Lcom/google/android/gms/internal/ads/zzgyr;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v2
+
+    .line 22
+    invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/zzgvu;->zzd(Lcom/google/android/gms/internal/ads/zzgxz;Lcom/google/android/gms/internal/ads/zzgyr;)Lcom/google/android/gms/internal/ads/zzgvu;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgvu;->zza()I
+
+    .line 27
+    .line 28
+    .line 29
+    move-result v2
+
+    .line 30
+    if-nez v2, :cond_0
+
+    .line 31
+    .line 32
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgox;->zzc()Lcom/google/android/gms/internal/ads/zzgvf;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v2
+
+    .line 36
+    invoke-static {v2}, Lcom/google/android/gms/internal/ads/zzglz;->zzf(Lcom/google/android/gms/internal/ads/zzgvf;)Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object v2
+
+    .line 40
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgvu;->zzf()Lcom/google/android/gms/internal/ads/zzgxz;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object v0
+
+    .line 44
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgxz;->zzA()[B
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object v0
+
+    .line 48
+    invoke-static {v0, p1}, Lcom/google/android/gms/internal/ads/zzgxf;->zzb([BLcom/google/android/gms/internal/ads/zzgfn;)Lcom/google/android/gms/internal/ads/zzgxf;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object p1
+
+    .line 52
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgox;->zzf()Ljava/lang/Integer;
+
+    .line 53
+    .line 54
+    .line 55
+    move-result-object p0
+
+    .line 56
+    invoke-static {v2, p1, p0}, Lcom/google/android/gms/internal/ads/zzgju;->zzc(Lcom/google/android/gms/internal/ads/zzgjz;Lcom/google/android/gms/internal/ads/zzgxf;Ljava/lang/Integer;)Lcom/google/android/gms/internal/ads/zzgju;
+
+    .line 57
+    .line 58
+    .line 59
+    move-result-object p0
+
+    .line 60
+    return-object p0
+
+    .line 61
+    :cond_0
+    new-instance p0, Ljava/security/GeneralSecurityException;
+
+    .line 62
+    .line 63
+    const-string p1, "Only version 0 keys are accepted"
+
+    .line 64
+    .line 65
+    invoke-direct {p0, p1}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    .line 66
+    .line 67
+    .line 68
+    throw p0
+    :try_end_0
+    .catch Lcom/google/android/gms/internal/ads/zzgzw; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 69
+    :catch_0
+    const-string p0, "Parsing XChaCha20Poly1305Key failed"
+
+    .line 70
+    .line 71
+    invoke-static {p0}, Lcom/cmaster/cloner/sa;->OooOOOO(Ljava/lang/String;)V
+
+    .line 72
+    .line 73
+    .line 74
+    return-object v1
+
+    .line 75
+    :cond_1
+    const-string p0, "Wrong type URL in call to XChaCha20Poly1305ProtoSerialization.parseKey"
+
+    .line 76
+    .line 77
+    invoke-static {p0}, Lcom/cmaster/cloner/sa;->OooOOO(Ljava/lang/String;)V
+
+    .line 78
+    .line 79
+    .line 80
+    return-object v1
+.end method
+
+.method public static synthetic zzb(Lcom/google/android/gms/internal/ads/zzgoy;)Lcom/google/android/gms/internal/ads/zzgka;
+    .locals 3
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgoy;->zzc()Lcom/google/android/gms/internal/ads/zzguf;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzguf;->zzi()Ljava/lang/String;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    const-string v1, "type.googleapis.com/google.crypto.tink.XChaCha20Poly1305Key"
+
+    .line 10
+    .line 11
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v0
+
+    .line 15
+    const/4 v1, 0x0
+
+    .line 16
+    if-eqz v0, :cond_1
+
+    .line 17
+    .line 18
+    :try_start_0
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgoy;->zzc()Lcom/google/android/gms/internal/ads/zzguf;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v0
+
+    .line 22
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzguf;->zzh()Lcom/google/android/gms/internal/ads/zzgxz;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    invoke-static {}, Lcom/google/android/gms/internal/ads/zzgyr;->zza()Lcom/google/android/gms/internal/ads/zzgyr;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v2
+
+    .line 30
+    invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/zzgvx;->zzd(Lcom/google/android/gms/internal/ads/zzgxz;Lcom/google/android/gms/internal/ads/zzgyr;)Lcom/google/android/gms/internal/ads/zzgvx;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v0
+    :try_end_0
+    .catch Lcom/google/android/gms/internal/ads/zzgzw; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 34
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgvx;->zza()I
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v0
+
+    .line 38
+    if-nez v0, :cond_0
+
+    .line 39
+    .line 40
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgoy;->zzc()Lcom/google/android/gms/internal/ads/zzguf;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object p0
+
+    .line 44
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzguf;->zzg()Lcom/google/android/gms/internal/ads/zzgvf;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p0
+
+    .line 48
+    invoke-static {p0}, Lcom/google/android/gms/internal/ads/zzglz;->zzf(Lcom/google/android/gms/internal/ads/zzgvf;)Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object p0
+
+    .line 52
+    invoke-static {p0}, Lcom/google/android/gms/internal/ads/zzgka;->zzc(Lcom/google/android/gms/internal/ads/zzgjz;)Lcom/google/android/gms/internal/ads/zzgka;
+
+    .line 53
+    .line 54
+    .line 55
+    move-result-object p0
+
+    .line 56
+    return-object p0
+
+    .line 57
+    :cond_0
+    const-string p0, "Only version 0 parameters are accepted"
+
+    .line 58
+    .line 59
+    invoke-static {p0}, Lcom/cmaster/cloner/sa;->OooOOOO(Ljava/lang/String;)V
+
+    .line 60
+    .line 61
+    .line 62
+    return-object v1
+
+    .line 63
+    :catch_0
+    move-exception p0
+
+    .line 64
+    new-instance v0, Ljava/security/GeneralSecurityException;
+
+    .line 65
+    .line 66
+    const-string v1, "Parsing XChaCha20Poly1305Parameters failed: "
+
+    .line 67
+    .line 68
+    invoke-direct {v0, v1, p0}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 69
+    .line 70
+    .line 71
+    throw v0
+
+    .line 72
+    :cond_1
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgoy;->zzc()Lcom/google/android/gms/internal/ads/zzguf;
+
+    .line 73
+    .line 74
+    .line 75
+    move-result-object p0
+
+    .line 76
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzguf;->zzi()Ljava/lang/String;
+
+    .line 77
+    .line 78
+    .line 79
+    move-result-object p0
+
+    .line 80
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object p0
+
+    .line 84
+    const-string v0, "Wrong type URL in call to XChaCha20Poly1305ProtoSerialization.parseParameters: "
+
+    .line 85
+    .line 86
+    invoke-virtual {v0, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object p0
+
+    .line 90
+    invoke-static {p0}, Lcom/cmaster/cloner/sa;->OooOOO(Ljava/lang/String;)V
+
+    .line 91
+    .line 92
+    .line 93
+    return-object v1
+.end method
+
+.method public static synthetic zzc(Lcom/google/android/gms/internal/ads/zzgju;Lcom/google/android/gms/internal/ads/zzgfn;)Lcom/google/android/gms/internal/ads/zzgox;
+    .locals 3
+
+    .line 1
+    invoke-static {}, Lcom/google/android/gms/internal/ads/zzgvu;->zzb()Lcom/google/android/gms/internal/ads/zzgvs;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgju;->zze()Lcom/google/android/gms/internal/ads/zzgxf;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    invoke-virtual {v1, p1}, Lcom/google/android/gms/internal/ads/zzgxf;->zzd(Lcom/google/android/gms/internal/ads/zzgfn;)[B
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p1
+
+    .line 13
+    array-length v1, p1
+
+    .line 14
+    const/4 v2, 0x0
+
+    .line 15
+    invoke-static {p1, v2, v1}, Lcom/google/android/gms/internal/ads/zzgxz;->zzv([BII)Lcom/google/android/gms/internal/ads/zzgxz;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/ads/zzgvs;->zza(Lcom/google/android/gms/internal/ads/zzgxz;)Lcom/google/android/gms/internal/ads/zzgvs;
+
+    .line 20
+    .line 21
+    .line 22
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgzb;->zzbn()Lcom/google/android/gms/internal/ads/zzgzh;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object p1
+
+    .line 26
+    check-cast p1, Lcom/google/android/gms/internal/ads/zzgvu;
+
+    .line 27
+    .line 28
+    invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/zzgxi;->zzaN()Lcom/google/android/gms/internal/ads/zzgxz;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object p1
+
+    .line 32
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzgtz;->zzb:Lcom/google/android/gms/internal/ads/zzgtz;
+
+    .line 33
+    .line 34
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgju;->zzd()Lcom/google/android/gms/internal/ads/zzgka;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object v1
+
+    .line 38
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzgka;->zzb()Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object v1
+
+    .line 42
+    invoke-static {v1}, Lcom/google/android/gms/internal/ads/zzglz;->zzg(Lcom/google/android/gms/internal/ads/zzgjz;)Lcom/google/android/gms/internal/ads/zzgvf;
+
+    .line 43
+    .line 44
+    .line 45
+    move-result-object v1
+
+    .line 46
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgju;->zzf()Ljava/lang/Integer;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object p0
+
+    .line 50
+    const-string v2, "type.googleapis.com/google.crypto.tink.XChaCha20Poly1305Key"
+
+    .line 51
+    .line 52
+    invoke-static {v2, p1, v0, v1, p0}, Lcom/google/android/gms/internal/ads/zzgox;->zza(Ljava/lang/String;Lcom/google/android/gms/internal/ads/zzgxz;Lcom/google/android/gms/internal/ads/zzgtz;Lcom/google/android/gms/internal/ads/zzgvf;Ljava/lang/Integer;)Lcom/google/android/gms/internal/ads/zzgox;
+
+    .line 53
+    .line 54
+    .line 55
+    move-result-object p0
+
+    .line 56
+    return-object p0
+.end method
+
+.method public static synthetic zzd(Lcom/google/android/gms/internal/ads/zzgka;)Lcom/google/android/gms/internal/ads/zzgoy;
+    .locals 2
+
+    .line 1
+    invoke-static {}, Lcom/google/android/gms/internal/ads/zzguf;->zza()Lcom/google/android/gms/internal/ads/zzgud;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const-string v1, "type.googleapis.com/google.crypto.tink.XChaCha20Poly1305Key"
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/zzgud;->zzb(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/zzgud;
+
+    .line 8
+    .line 9
+    .line 10
+    invoke-static {}, Lcom/google/android/gms/internal/ads/zzgvx;->zzc()Lcom/google/android/gms/internal/ads/zzgvx;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v1
+
+    .line 14
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzgxi;->zzaN()Lcom/google/android/gms/internal/ads/zzgxz;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object v1
+
+    .line 18
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/zzgud;->zzc(Lcom/google/android/gms/internal/ads/zzgxz;)Lcom/google/android/gms/internal/ads/zzgud;
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgka;->zzb()Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object p0
+
+    .line 25
+    invoke-static {p0}, Lcom/google/android/gms/internal/ads/zzglz;->zzg(Lcom/google/android/gms/internal/ads/zzgjz;)Lcom/google/android/gms/internal/ads/zzgvf;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object p0
+
+    .line 29
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/internal/ads/zzgud;->zza(Lcom/google/android/gms/internal/ads/zzgvf;)Lcom/google/android/gms/internal/ads/zzgud;
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgzb;->zzbn()Lcom/google/android/gms/internal/ads/zzgzh;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object p0
+
+    .line 36
+    check-cast p0, Lcom/google/android/gms/internal/ads/zzguf;
+
+    .line 37
+    .line 38
+    invoke-static {p0}, Lcom/google/android/gms/internal/ads/zzgoy;->zzb(Lcom/google/android/gms/internal/ads/zzguf;)Lcom/google/android/gms/internal/ads/zzgoy;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object p0
+
+    .line 42
+    return-object p0
+.end method
+
+.method public static zze(Lcom/google/android/gms/internal/ads/zzgny;)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzglz;->zzc:Lcom/google/android/gms/internal/ads/zzgoh;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/zzgny;->zzi(Lcom/google/android/gms/internal/ads/zzgoh;)V
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzglz;->zzd:Lcom/google/android/gms/internal/ads/zzgod;
+
+    .line 7
+    .line 8
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/zzgny;->zzh(Lcom/google/android/gms/internal/ads/zzgod;)V
+
+    .line 9
+    .line 10
+    .line 11
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzglz;->zze:Lcom/google/android/gms/internal/ads/zzgmx;
+
+    .line 12
+    .line 13
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/zzgny;->zzg(Lcom/google/android/gms/internal/ads/zzgmx;)V
+
+    .line 14
+    .line 15
+    .line 16
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzglz;->zzf:Lcom/google/android/gms/internal/ads/zzgmt;
+
+    .line 17
+    .line 18
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/zzgny;->zzf(Lcom/google/android/gms/internal/ads/zzgmt;)V
+
+    .line 19
+    .line 20
+    .line 21
+    return-void
+.end method
+
+.method private static zzf(Lcom/google/android/gms/internal/ads/zzgvf;)Lcom/google/android/gms/internal/ads/zzgjz;
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    const/4 v1, 0x1
+
+    .line 6
+    if-eq v0, v1, :cond_3
+
+    .line 7
+    .line 8
+    const/4 v1, 0x2
+
+    .line 9
+    if-eq v0, v1, :cond_2
+
+    .line 10
+    .line 11
+    const/4 v1, 0x3
+
+    .line 12
+    if-eq v0, v1, :cond_1
+
+    .line 13
+    .line 14
+    const/4 v1, 0x4
+
+    .line 15
+    if-ne v0, v1, :cond_0
+
+    .line 16
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :cond_0
+    new-instance v0, Ljava/security/GeneralSecurityException;
+
+    .line 19
+    .line 20
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgvf;->zza()I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result p0
+
+    .line 24
+    const-string v1, "Unable to parse OutputPrefixType: "
+
+    .line 25
+    .line 26
+    invoke-static {p0, v1}, Lcom/cmaster/cloner/by0;->OooOOO(ILjava/lang/String;)Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p0
+
+    .line 30
+    invoke-direct {v0, p0}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    throw v0
+
+    .line 34
+    :cond_1
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgjz;->zzc:Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 35
+    .line 36
+    return-object p0
+
+    .line 37
+    :cond_2
+    :goto_0
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgjz;->zzb:Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 38
+    .line 39
+    return-object p0
+
+    .line 40
+    :cond_3
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgjz;->zza:Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 41
+    .line 42
+    return-object p0
+.end method
+
+.method private static zzg(Lcom/google/android/gms/internal/ads/zzgjz;)Lcom/google/android/gms/internal/ads/zzgvf;
+    .locals 2
+
+    .line 1
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzgjz;->zza:Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgvf;->zzb:Lcom/google/android/gms/internal/ads/zzgvf;
+
+    .line 10
+    .line 11
+    return-object p0
+
+    .line 12
+    :cond_0
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzgjz;->zzb:Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 13
+    .line 14
+    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v0
+
+    .line 18
+    if-eqz v0, :cond_1
+
+    .line 19
+    .line 20
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgvf;->zze:Lcom/google/android/gms/internal/ads/zzgvf;
+
+    .line 21
+    .line 22
+    return-object p0
+
+    .line 23
+    :cond_1
+    sget-object v0, Lcom/google/android/gms/internal/ads/zzgjz;->zzc:Lcom/google/android/gms/internal/ads/zzgjz;
+
+    .line 24
+    .line 25
+    invoke-virtual {v0, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    .line 26
+    .line 27
+    .line 28
+    move-result v0
+
+    .line 29
+    if-eqz v0, :cond_2
+
+    .line 30
+    .line 31
+    sget-object p0, Lcom/google/android/gms/internal/ads/zzgvf;->zzd:Lcom/google/android/gms/internal/ads/zzgvf;
+
+    .line 32
+    .line 33
+    return-object p0
+
+    .line 34
+    :cond_2
+    new-instance v0, Ljava/security/GeneralSecurityException;
+
+    .line 35
+    .line 36
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzgjz;->toString()Ljava/lang/String;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object p0
+
+    .line 40
+    const-string v1, "Unable to serialize variant: "
+
+    .line 41
+    .line 42
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 43
+    .line 44
+    .line 45
+    move-result-object p0
+
+    .line 46
+    invoke-direct {v0, p0}, Ljava/security/GeneralSecurityException;-><init>(Ljava/lang/String;)V
+
+    .line 47
+    .line 48
+    .line 49
+    throw v0
+.end method
